@@ -1,0 +1,30 @@
+.slideout {
+  position: absolute;
+  top: 1.75rem;
+  left: -8.5rem;
+  animation-name: example;
+  animation-duration: 0.5s;
+  /* animation-iteration-count: 1; */
+}
+
+@keyframes example {
+  0%   {opacity: 0;margin-top: 1rem;}
+  100% {opacity: 1;margin-top: 0rem;}
+}
+
+.slidein {
+  position: absolute;
+  top: 1.75rem;
+  left: -8.5rem;
+  visibility: hidden;
+  animation-name: example2;
+  animation-duration: 0.5s;
+  /* animation-iteration-count: 1; */
+}
+
+@keyframes example2 {
+  0%   {opacity: 1;margin-top: 0rem; visibility: visible;}
+  100% {opacity: 0;margin-top: 1rem; visibility: hidden;}
+}
+
+/* .slidein */

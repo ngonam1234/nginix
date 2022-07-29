@@ -1,0 +1,30 @@
+.modalPopup {
+  animation-name: example;
+  animation-duration: 0.5s;
+}
+
+@keyframes example {
+  0%   {opacity: 0;margin-top:-2rem;}
+  100% {opacity: 1;margin-top: 0rem;}
+}
+
+.bgPopup {
+  position: fixed;
+  z-index: 20;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.3;
+
+  animation-name: example2;
+  animation-duration: 0.5s;
+}
+
+@keyframes example2 {
+  0%   {opacity: 0;}
+  100% {opacity: 0.3;}
+}
+
+/* .slidein */

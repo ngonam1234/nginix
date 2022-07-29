@@ -1,0 +1,20 @@
+.popup {
+  position: fixed;
+  z-index: 20;
+  margin-top: -6rem;
+  top: 0;
+  animation-name: example;
+  animation-duration: 5s;
+  /* animation-iteration-count: 1; */
+}
+
+@keyframes example {
+  0%   {margin-top: -6rem;}
+  10%  {margin-top: 4rem;}
+  13%  {margin-top: 4rem;}
+  16%  {margin-top: 3rem;}
+  84%  {margin-top: 3rem;}
+  87%  {margin-top: 4rem;}
+  90%  {margin-top: 4rem;}
+  100% {margin-top: -6rem;}
+}
